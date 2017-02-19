@@ -84,7 +84,7 @@ body {
     margin-top: -150px;
 }
 
-ioBtnContainer {
+.ioBtnContainer {
     position: absolute;
     z-index: 2;
 
