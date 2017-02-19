@@ -1,0 +1,67 @@
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+ioBgContainer {
+    width: 100%;
+    height: 100%;
+
+    position: fixed;
+    z-index: 1;
+}
+
+.ioBgContainer .ioBgPanel {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+}
+
+.ioBgContainer .ioBgPanel__1 {
+    background-color: green;
+    z-index: 10;
+
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.ioBgContainer .ioBgPanel__2 {
+    background-color: blue;
+    z-index: 11;
+
+    -ms-transform: rotate(135deg); /* IE 9 */
+    -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
+    transform: rotate(135deg);
+}
+
+.ioBgContainer .ioBgPanel__3 {
+    background-color: yellow;
+    z-index: 12;
+
+    -ms-transform: rotate(-135deg); /* IE 9 */
+    -webkit-transform: rotate(-135deg); /* Chrome, Safari, Opera */
+    transform: rotate(-135deg);
+}
+
+.ioBgContainer .ioBgPanel__4 {
+    background-color: red;
+    z-index: 13;
+
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+}
+
+.ioBgContainer .ioBgContainer__image {
+
+}
+
+ioBtnContainer {
+    position: absolute;
+    z-index: 2;
+}
