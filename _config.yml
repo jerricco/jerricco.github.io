@@ -1,2 +1,11 @@
 name: Jacob Isailofski
-markdown: kramdown
+
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+kramdown:
+  auto_ids: true
+
+# Permalinks
+permalink:        pretty
