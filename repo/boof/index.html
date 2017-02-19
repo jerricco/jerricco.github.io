@@ -7,11 +7,11 @@
 </head>
 <body>
     <div class="ioSite">
-        {% include parts/navigation.html %}
+        {% include {{ site.github.url }}/repo/boof/parts/navigation.html %}
     </div>
 </body>
 <footer>
-    <link rel="stylesheet" type="text/css" href="/asset/vendor/boof/boof.css" />
-    <script src="/asset/vendor/boof/boof.min.js?v=1.1"></script>
+    <link rel="stylesheet" type="text/css" href="{{ site.github.url }}/asset/vendor/boof/boof.css" />
+    <script src="{{ site.github.url }}/asset/vendor/boof/boof.min.js?v=1.1"></script>
 </footer>
 </html>
